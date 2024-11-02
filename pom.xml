@@ -83,7 +83,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.example.MainKt</mainClass> <!-- Replace with your main class -->
+                            <mainClass>io.javalin.omeglin.MainKt</mainClass> <!-- Updated to reflect your Kotlin main class -->
                         </manifest>
                     </archive>
                 </configuration>
