@@ -15,7 +15,7 @@
         <kotlin.version>2.0.0-Beta2</kotlin.version>
         <kotlin.code.style>official</kotlin.code.style>
         <junit.version>4.13.1</junit.version>
-        <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
+        <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget> <!-- Changed from 11 to 17 -->
     </properties>
 
     <dependencies>
@@ -75,9 +75,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Specify plugin version -->
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <source>17</source> <!-- Changed from 21 to 17 -->
+                    <target>17</target> <!-- Changed from 21 to 17 -->
                 </configuration>
             </plugin>
         </plugins>
